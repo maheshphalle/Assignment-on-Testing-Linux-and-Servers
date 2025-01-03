@@ -1,0 +1,10 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         807  0.0  0.3 370052 22692 ?        Ssl  16:07   0:00 /usr/libexec/packagekitd
+root         265  0.0  0.3 107008 22396 ?        Ssl  16:06   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.3  66836 19732 ?        S<s  16:06   0:00 /usr/lib/systemd/systemd-journald
+root         196  0.0  0.3 1756096 17996 ?       Ssl  16:06   0:00 /usr/libexec/wsl-pro-service -vv
+root           1  0.0  0.2  21844 13016 ?        Ss   16:06   0:00 /sbin/init
+systemd+     113  0.0  0.2  21452 12036 ?        Ss   16:06   0:00 /usr/lib/systemd/systemd-resolved
+mahesh       493  0.0  0.1  20256 11528 ?        Ss   16:06   0:00 /usr/lib/systemd/systemd --user
+root         189  0.0  0.1  17976  8256 ?        Ss   16:06   0:00 /usr/lib/systemd/systemd-logind
+polkitd      812  0.0  0.1 308160  7916 ?        Ssl  16:07   0:00 /usr/lib/polkit-1/polkitd --no-debug
